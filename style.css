@@ -1,0 +1,26 @@
+html,
+
+header {font-size: 40px;text-align: center;color: red;line-height: 5cm; background-color: #856028;}
+html {font-size: 20px;text-align: center;font-size: 10px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    color: #2a2a2a;
+    background-color: #d3b9974d;}
+nav ul {list-style-type: none;display: flex;justify-content: space-around;}
+
+body {font-size: 20px;text-align: center;} 
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+nav h3 {display: inline-block;}
+footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: #856028;}
+li{font-size: 16px;
+    line-height: 1.5;
+}    
+
+    

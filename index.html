@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+        <title>Home@Vista Ridge</title>
+    <header>
+        <link rel="stylesheet" href="style.css"/> 
+        Welcome to VISTA RIDGE COOKING AND SCENERY Viewing portal
+    </header>
+    <p>This site is to share with you my times in home quarentine and lockdown in photos. For the first time I have been able to enjoy my family, home, cooking and photography.</p> 
+    <h3>Enjoy you viewing experience</h3>
+    <body>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="scenery.html">Scenery</a></li>
+              <li><a href="homeprojects.html">Projects</a></li>
+              <li><a href="cooking.html">Cooking</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+          <p></p>
+          <p></p>
+        <nav>
+        <style>
+            .slider{
+                height: 300px;
+                position: relative;
+            }
+            .slider img {
+        
+                width: 100%;
+                height: 300px;
+                position: absolute;
+            }
+            .slider .slider-prev-btn, .slider .slider-next-btn {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                background: transparent;
+                border: 0px;
+                color: #ffffff;
+                font-size: 40px;
+                opacity: 0.2;
+            }
+            .slider .slider-prev-btn {
+                left: 0;
+
+            }
+            .slider .slider-prev-btn {
+                right: 0;
+                
+            }
+            /* fading animation */
+            .fade {
+                -webkit-animation-name: 4;
+                -webkit-animation-duration: 1.5s;
+                animation-name: fade;
+                animation-duration: 1.5s;
+
+            }
+            @-webkit-keyframes fade{
+                from  {opacity: .4}
+                to {opacity: 1}
+            }
+            @keyframes fade {
+                from {opacity: .4}
+                to {opacity: 1}
+            }
+        </style>
+    
+            <div class="slider">
+                <img class="fade" src="pictures/ATR-72-600-cockpit.jpg"/>
+                <img class="fade" src="pictures/clouds.jpg"/>
+                <img class="fade" src="pictures/SKN.jpg"/>
+                <img class="fade" src="pictures/SKB.jpg"/>
+                <img class="fade" src="pictures/st-kitts-bradshaw-airport-family-boarding-plane-c5pcjm[1].jpg"/>
+                <img class="fade" src="pictures/VistaRidgeLogo3.png"/>
+                <button class="slider-prev-btn" oneclick="goPrevImage()" ><</button>
+                <button class="slider-next-btn" oneclick="goNextImage()" >></button>
+            </div>
+        
+    <main>
+    </main>
+    
+
+
+    <p></p>"Caption: Not In The Office 461 days and counting"
+    <script>
+       
+        </script>
+    
+    <p></p>
+    </div></div>
+    <nav>
+        
+            <ul>
+                <li>Coviid 19 Quarantine</li>
+                <li>Lockdown</li>
+            </ul>
+        </nav>
+    </nav>
+    <p> Which one can you best spend your time at home?</p>
+    <ul>
+        <li><a href="game.html">Play a Matching Game with my Pictures</a></li>
+    </ul>
+    <aside>
+        <h3>Picture of the day</h3>
+        <ul>Food</ul>
+        <ul>Scene</ul>
+    </aside>
+    <p> <h3>Links of Interest</h3> </p> <a href=<a>https://nevisisland.com <p> </p>https://www.nhc.noaa.gov</a>
+    <p></p>
+    
+</Body>
+<script>
+    let items = document.querySelectorAll('div img');
+    let currentindex = 0;
+    function scrollimage() {
+        for(let index=0; index < items.length;  index = index +1) {
+            items[index].setAttribute('style', 'display: none');
+            items[index].classList.add('fade');
+        }
+
+        items[currentindex].setAttribute ('style','display: block');
+    }
+    function goPrevImage(){
+        if (currentIndex == 0) {
+            currentIndex = items.length-1;
+        } else{
+            currentIndex = currentIndex-1;
+        }
+    scrollimage();
+    }
+    function goNextImage (){
+        if (currentIndex == items.length-1){
+            currentIndex = 0;
+        } else {
+            currentIndex = currentIndex+1
+        }
+    scrollimage ();
+    }
+    scrollimage();
+</script>
+    <footer>Email: <a href=</a>seanhenville@sisterisles.kn</a> <p>Copyright: VistaRidge2021</Footer></footer>
+<body>
+    <script>
+        const cars = [
+            {
+                name:"toyota",
+                year:"1995",
+                price: "?",
+                model:"SURF",
+                description:"SUV 4x4",
+                picture :  image_link <img src= "pictures/"
+            }
+            {
+                name:"hyundai",
+                year:"2018",
+                price: "?",
+                model:"santa fe",
+                description:"SUV AWD"
+            }
+        ]
+    </script>
+</body>
+        </html>
