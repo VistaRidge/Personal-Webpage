@@ -7,8 +7,8 @@ function renderItems(items) {
   items.forEach(function (item) {
     items_layout.innerHTML +=
         `<div class="card-item" data-name="${item.name}">
-            <img class="front-face" src="${item.image_link}" />
-            <img class="back-face" src="images/pineapple_bun_large.png" />
+            <img class="front-face" src="pictures/VistaRidgeLogo3.png" style="width: 300px; height: 240px;" title="VR Logo" />
+            <img class="back-face" src="${item.image_link}" />
         </div>`;
   });
 
